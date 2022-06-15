@@ -1,2 +1,3 @@
-# USING-DEEP-NEURAL-NETWORKS-FOR-TUBERCULOSIS-DETECTION
-CHEST X-RAY IMAGES AND A HYBRID APPROACH TO TUBERCULOSIS DETECTION USING DEEP LEARNING AND TRANSFER LEARNING
+# PROBLEM STATEMENT
+The goal of this project is to create a model that can diagnose TB from CXR and graphically convey the results using Deep Convolutional Neural Networks. Over the same data set, the performance of this suggested model is compared to that of preset CNNs. The project is being undertaken out utilising the National Institute of Health (NIH) of the United States' publicly available datasets Shenzhen and Montgomery.
+VGG-168, VGG-198, ResNet-506, AlexNet4, and Xception9 are modified versions of pre-trained Convolutional Neural Networks models used in the first two rounds of the project. The first part of the project is to find the optimum pre-trained CNN for automatic Feature Extraction through experimentation. The purpose of the second step of the project is to verify the performance of the pre-trained CNN identified in the first stage. The study effort concludes with the proposal of a novel handcrafted CNN architecture for TB identification.
