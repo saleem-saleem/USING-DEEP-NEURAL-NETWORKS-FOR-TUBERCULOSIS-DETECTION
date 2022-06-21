@@ -19,5 +19,5 @@ The model was independently examined in terms of accuracy and AUC shown for the 
 ![image](https://user-images.githubusercontent.com/104749585/174728228-e0bc6079-c2bb-4a94-b132-9e73d94ae374.png)
 
 
-We understand that tuberculosis detection is not just limited to X-ray examination, but also includes studying various other factors pertaining to a patient, such as the patient's health history, lab reports, tests, and so on, based on the inputs gathered from healthcare professionals who specialise in treating tuberculosis. These new data points will undoubtedly aid in the diagnosing procedure. Combining all of the sources of input and developing a model that uses clinical inputs as well as picture data would be an intriguing area of research.
+Tuberculosis detection is not just limited to X-ray examination, but also includes studying various other factors pertaining to a patient, such as the patient's health history, lab reports, tests, and so on, based on the inputs gathered from healthcare professionals who specialise in treating tuberculosis. These new data points will undoubtedly aid in the diagnosing procedure. Combining all of the sources of input and developing a model that uses clinical inputs as well as picture data would be an intriguing area of research.
 
