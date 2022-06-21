@@ -11,3 +11,13 @@ On the proposed model, a 10-fold cross validation was performed on all data sets
 ![image](https://user-images.githubusercontent.com/104749585/174726861-a4646c0c-0123-4379-ad37-ef48907590eb.png)
 ![image](https://user-images.githubusercontent.com/104749585/174726967-62319c85-4f04-470e-9b6b-9badc95d0108.png)
 
+# Conclusion
+This study provides a suggested model based on a handcrafted neural network architecture that has been specifically tuned for TB diagnosis. When compared to a tiny network like GoogLeNet, which has roughly 7 million parameters, the suggested model has the benefit of having just about 230,000 parameters for prediction. Other structures, which have been used in other investigations, include as many as 70 million parameters. As a result, we infer that the parameter efficiency of our custom suggested model is the highest. The only regularisation methods used are batch normalisation and data augmentation. Our model is less prone to overfitting since it is a compact network with fewer degrees of freedom.
+
+The model was independently examined in terms of accuracy and AUC shown for the Shenzhen and Montgomery data sets separately, and it was determined that our model exceeds all previous known studies, as shown in Table. When the model was trained on the merged dataset, the accuracy and AUC were found to be considerably more difficult to achieve than the previous findings. The suggested model was discovered to be both a compact and a strong classifier.
+
+![image](https://user-images.githubusercontent.com/104749585/174728228-e0bc6079-c2bb-4a94-b132-9e73d94ae374.png)
+
+
+We understand that tuberculosis detection is not just limited to X-ray examination, but also includes studying various other factors pertaining to a patient, such as the patient's health history, lab reports, tests, and so on, based on the inputs gathered from healthcare professionals who specialise in treating tuberculosis. These new data points will undoubtedly aid in the diagnosing procedure. Combining all of the sources of input and developing a model that uses clinical inputs as well as picture data would be an intriguing area of research.
+
